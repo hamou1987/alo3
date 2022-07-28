@@ -1,0 +1,29 @@
+FUNCTION dot-product(VAR vec : FLOAT) : FLOAT
+VAR
+i: INTEGER := 0;
+BEGIN
+FOR i FROM 0 TO n-1 STEP step  DO
+vec := vec + v1[i]*v2[i]
+    RETURN vec ;
+END
+ALGORITHM algorithm_name
+VAR
+r :INTEGER
+    ps : FLOAT :=0;
+    v1,v2 : ARRAY_OF FLOAT[n];
+BEGIN
+    write("type the number of repeated vectors")
+    read(r)
+    
+    Write("the length of v1 and v2")
+    REad(n)
+
+    Write("type the el of v1 and v2")
+    FOR i FROM 0 TO r-1 STEP   DO
+      Read(v1[i])
+      Read(v2[i])
+ dot-product(ps)
+ Write(ps)
+ if(ps=0) THEN
+ Write("V1 et V2 sont orthogonaux")
+END
